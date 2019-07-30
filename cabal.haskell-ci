@@ -1,0 +1,9 @@
+branches: master
+jobs-selection: any
+
+-- doctest needs ghc bounds relaxation
+--
+-- ghc-paths needs a release
+-- https://github.com/simonmar/ghc-paths/pull/19
+-- https://github.com/simonmar/ghc-paths/issues/18
+tests: <8.8
